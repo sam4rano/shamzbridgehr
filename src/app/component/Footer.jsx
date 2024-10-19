@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-slate-100 py-6">
+    <footer className="bg-slate-200 py-6">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Social Media Icons */}
         <div className="flex justify-center space-x-6 mb-4">
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         
         {/* Copyright Text */}
-        <p className="text-center text-sm text-gray-600">
+        <p className="text-center text-sm text-gray-600 font-karla">
           &copy; {currentYear} Shamzbridge. All rights reserved.
         </p>
       </div>

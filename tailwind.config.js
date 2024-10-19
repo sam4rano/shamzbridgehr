@@ -19,10 +19,10 @@ export default {
         neutral: "#FFFFFF",
         warning: "#BDD0F133",
       },
-      // fontFamily: {
-      //   teko: ["Teko", "sans-serif"],
-      //   bitter: ["Bitter", "serif"],
-      // },
+      fontFamily: {
+        nunito: ['var(--font-nunito)'],
+        karla: ['var(--font-karla)'],
+      },
       screens: {
         sm: { min: "360px", max: "799px" },
         md: { min: "800px", max: "1023px" },

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+
+export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,8 +9,24 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg_primary: "#4582FF",
+        button_action: "#FFC145",
+        bg_light: "#F1F1F1",
+        bg_grey: "#86888A",
+        text_blue: "#3973D4",
+        "button-inactive": "#F7F0F7",
+        "button-hover": "#280E3B",
+        neutral: "#FFFFFF",
+        warning: "#BDD0F133",
+      },
+      // fontFamily: {
+      //   teko: ["Teko", "sans-serif"],
+      //   bitter: ["Bitter", "serif"],
+      // },
+      screens: {
+        sm: { min: "360px", max: "799px" },
+        md: { min: "800px", max: "1023px" },
+        lg: { min: "1024px" },
       },
     },
   },
